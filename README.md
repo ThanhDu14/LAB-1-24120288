@@ -94,6 +94,7 @@ Hệ thống có 3 API Endpoint chính:
 
 ## Liên kết video demo
 - **Video Demo:**
-https://drive.google.com/drive/folders/1mq8lZ6vJLMdMwGksQHSgHl6Wb_GhTzLv
+[https://drive.google.com/drive/folders/1mq8lZ6vJLMdMwGksQHSgHl6Wb_GhTzLv](https://drive.google.com/drive/folders/1mq8lZ6vJLMdMwGksQHSgHl6Wb_GhTzLv?usp=sharing)
+
 
 
