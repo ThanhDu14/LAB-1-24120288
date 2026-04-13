@@ -4,9 +4,9 @@ import io
 BASE_URL = "http://127.0.0.1:8000"
 
 def test_root():
-    print("\n--- Testing GET / ---")
+    print("\n--- Testing GET /classify ---")
     try:
-        response = requests.get(f"{BASE_URL}/")
+        response = requests.get(f"{BASE_URL}/classify")
         print(f"Status: {response.status_code}")
         print(f"Response: {response.json()}")
     except Exception as e:
