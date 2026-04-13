@@ -87,13 +87,6 @@ async def predict(file: UploadFile = File(...)):
         )
 ## END TODO
 
-import threading
-import uvicorn
-
-def run_server():
+if __name__ == "__main__":
+    import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
-
-thread = threading.Thread(target=run_server, daemon=True)
-thread.start()
-
-print("Server started on http://127.0.0.1:8000")
